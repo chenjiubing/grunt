@@ -1,7 +1,0 @@
-[
-              	
-'define/shopCommon',
-'controller/shop'
-
-];
-
