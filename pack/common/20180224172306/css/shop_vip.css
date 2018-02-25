@@ -1,0 +1,71 @@
+.payVipWarp .shop_title{margin:30px 0 10px 0;}
+.payVipWarp .shop_title .shop_txt{font-weight:bold;font-size:22px;color:#383838;padding-left:15px;}
+.payVipWarp .shop_title .shop_link a{color:#fa265d;font-size:14px;border:1px solid #fa265d;border-radius:5px;padding:0 5px;}
+.payVipWarp .vipItem{background:#fff;margin:0;padding:15px 0 15px 15px;}
+.payVipWarp .vipTo{margin-top:1px;}
+.payVipWarp .vipTo span{margin-right:50px;}
+.payVipWarp .vipTo label{margin:0;border:0;padding:0;line-height:150%;height:auto;}
+.payVipWarp .vipTo label:hover{border:0 none;background:none;}
+.payVipWarp label{margin:0 50px;}
+#vip_accountid{width:210px;height:33px;line-height:32px;border:1px solid #d5d5d5;font-size:12px;text-align:center;}
+
+.vipPrivilegeWarp .shop_title{margin:10px 0;}
+.vipPrivilegeWarp .shop_title .shop_txt{font-weight:bold;font-size:22px;color:#383838;padding-left:5px;}
+.vipPrivilegeWarp .shop_title .shop_link a{color:#fa265d;font-size:14px;border:1px solid #fa265d;border-radius:5px;padding:0 5px;}
+
+.vipPrivilegeBox .table_list .itemFirst{width:219px!important;}
+.vipPrivilegeBox .table_list .colorRed{font-size:16px;}
+.vipPrivilegeBox .table_list li{width:352px;height:50px;line-height:50px;}
+.vipPrivilegeBox .table_list li em{color:#f3894c;}
+
+.vip_state{font-size:14px;color:#fa265d;margin-top:10px;}
+
+.shopVipIcon{background:url(http://img2.img.9xiu.com/public/webImg/shop/shopVipIcon.png) no-repeat;}
+.shopVipIcon1{background-position:0 0;width:80px;height:28px;}
+.shopVipIcon2{background-position:0 -28px;width:80px;height:28px;}
+.shopVipIcon3{background-position:0 -56px;width:80px;height:28px;}
+.shopVipIcon4{background-position:0 -84px;width:80px;height:28px;}
+
+.shopVipIcon5{background-position:0 -112px;width:106px;height:37px;}
+.shopVipIcon6{background-position:0 -149px;width:106px;height:37px;}
+.shopVipIcon7{background-position:0 -186px;width:106px;height:37px;}
+.shopVipIcon8{background-position:0 -223px;width:106px;height:37px;}
+
+.payVipWarp .payGuardBox_list em,.payVipWarp .payGuardBox_list b{color: #fa265d;}
+.payVipWarp .kaitong_box{border:none;}
+.payVipWarp .kaitong_box .kaitong{font-size:16px;background:#fa265d;}
+.payVipWarp .vipTypeBox{background:#fff;width:297px;padding:25px 0;text-align:center;margin:0 1px 1px 0;position:relative;}
+.payVipWarp .vipTypeBoxnb{margin:0 0 1px 0;}
+.payVipWarp .vipTypeBox{cursor:pointer;}
+.payVipWarp .vipTypeBox p.shopVipIcon{margin:0 auto;}
+.payVipWarp .vipTypeBox p.txt{margin:4px 0 0 0;color:#fa265d;font-size:14px;}
+.payVipWarp .vipTypeBox .bg{position:absolute;left:-5px;top:0;background:url(http://img2.img.9xiu.com/public/webImg/shop/vipTypeBoxBg.png) left top no-repeat;width:298px;height:115px;display:none;}
+.payVipWarp .vipTypeBox:hover .bg,.payVipWarp .on .bg{display:inline-block;}
+
+.payVipWarp .payGuardBox_list label:hover,.payVipWarp .payGuardBox_list label.on{border:1px solid #fa265d;background:url(http://img1.img.9xiu.com/public/webImg/shop/shop_label2.png) right bottom no-repeat;}
+
+.payVipWarp .payGuardBox_list .vipTo label:hover,.payVipWarp .payGuardBox_list .vipTo label.on{border:none;background:none;}
+
+.vipPrivilegeBoxList{background:#fff;width:297px;margin-right:1px;padding-top:140px;min-height:627px;}
+.vipPrivilegeBoxListnb{margin:0;}
+.vipPrivilegeBoxList .shopVipIcon{position:absolute;top:30px;left:-5px;}
+.vipPrivilegeBoxList .showVipIcon{position:absolute;width:130px;height:130px;display:inline-block;right:-1px;top:0;}
+.vipPrivilegeBoxList p{margin:15px 0;font-size:14px;padding:0 20px;}
+
+.hjVipList{color:#ff9000;}
+.bjVipList{color:#d42137;}
+.zsVipList{color:#d045ea;}
+.zzVipList{color:#000000;}
+
+.hjVipList .showVipIcon{background:url(http://img2.img.9xiu.com/public/webImg/shop/showvip1.jpg);}
+.bjVipList .showVipIcon{background:url(http://img2.img.9xiu.com/public/webImg/shop/showvip2.jpg);}
+.zsVipList .showVipIcon{background:url(http://img2.img.9xiu.com/public/webImg/shop/showvip3.jpg);}
+.zzVipList .showVipIcon{background:url(http://img2.img.9xiu.com/public/webImg/shop/showvip4.jpg);}
+
+.hjVipList:hover .showVipIcon{background:url(http://img2.img.9xiu.com/public/webImg/shop/showvip1_on.jpg);}
+.bjVipList:hover .showVipIcon{background:url(http://img2.img.9xiu.com/public/webImg/shop/showvip2_on.jpg);}
+.zsVipList:hover .showVipIcon{background:url(http://img2.img.9xiu.com/public/webImg/shop/showvip3_on.jpg);}
+.zzVipList:hover .showVipIcon{background:url(http://img2.img.9xiu.com/public/webImg/shop/showvip4_on.jpg);}
+
+.vipPrivilegeWarp .srollTop span{background:#fa265d;}
+

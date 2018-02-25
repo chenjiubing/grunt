@@ -1,0 +1,7 @@
+[
+              	
+'define/shopCommon',
+'controller/shop'
+
+];
+
