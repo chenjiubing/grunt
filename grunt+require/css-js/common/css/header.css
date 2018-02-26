@@ -1,0 +1,143 @@
+.web_nav_bbg{width:100%;background:#F8F8F8;height:127px;position:relative;z-index:10;}
+.web_nav_bbg_fixed{padding-top:127px;}
+.web_nav_bbg_fixed .web_nav_bbg{height:78px;position:fixed;left:0;top:0;width:100%;}
+.web_nav_bbg_fixed .web_nav{display:none;}
+.web_nav_bbg_fixed .jianhu{display:none;}
+.web_nav_bbg .nav_cont_w{width:1190px;margin:0 auto;}
+.web_nav_top{height:78px;position:relative;z-index:2;}
+.web_nav{background:#F0F0F0;height:48px;border-top:1px solid #E4E4E4;position:relative;z-index:1;}
+
+.web_nav_top .xiulogo{float:left;margin-top:12px;}
+.web_nav_top .xiulogo a{display:block;width:153px;height:50px;background:url(http://img.img.9xiu.com/public/webImg/common/head/head6.png) no-repeat;}
+
+.headSearch_box{float:left;margin:17px 0 0 140px;}
+.headSearch_box .search_form{width:470px;height:40px;border:1px solid #FF3D54;border-radius:5px;background:#F8F8F8;}
+.headSearch_box .headSearch_txt{border:none;height:40px;width:417px;padding-left:12px;color:#666;float:left;line-height:40px\9;background:none;outline:none;}
+.headSearch_box .headSearch_but{border:none;width:41px;height:42px;float:left;cursor:pointer;background:url(http://img2.img.9xiu.com/public/webImg/common/head/head9.png) no-repeat;margin-top:-1px;}
+
+.web_nav li{float:left;margin:14px 30px 0 0;position:relative;height:33px;}
+.web_nav a{font-size:14px;color:#555;display:inline-block;padding-right:20px;}
+.web_nav a.closeIcon{background:url(http://img2.img.9xiu.com/public/webImg/common/head/head8.png) no-repeat right center;}
+.web_nav a.openIcon{background-image:url(http://img2.img.9xiu.com/public/webImg/common/head/head7.png);}
+.web_nav a:hover,.web_nav a.on{color:#ff3d55;font-weight:bold;}
+.web_nav .paybut{float:right;margin-right:0;}
+.web_nav .paybut a{color:#ff3d55;}
+.web_nav .hoticon{display:block;width: 13px;height: 13px;background:url(http://img2.img.9xiu.com/public/webImg/common/head/head5.png) no-repeat;position:absolute;top:-2px;right:2px;}
+
+.nav_setup li{float:left;position:relative;font-size:12px;color:#666;margin:28px 0 0 25px;}
+.nav_setup li.hover{height:50px;}
+.userStatus_show{background:url(http://img2.img.9xiu.com/public/webImg/common/head/head1.png) no-repeat left center;padding-left:24px;color:#FF3D55;cursor:pointer;}
+.userStatus_hide{background:url(http://img2.img.9xiu.com/public/webImg/common/head/head3.png) no-repeat left center;padding-left:24px;cursor:pointer;}
+.myfollow{background:url(http://img2.img.9xiu.com/public/webImg/common/head/head2.png) no-repeat left center;padding-left:30px;}
+.palyRecord{background:url(http://img2.img.9xiu.com/public/webImg/common/head/head4.png) no-repeat left center;padding-left:24px;}
+
+.nav_setup li a:hover{color:#FF3D55;}
+.status_pop{position:absolute;left:0;bottom:-22px;padding-top:5px;display:none;background-position:0 6px;}
+.status_pop_on{display:block;}
+.userLoginBox b{color:#ccc;padding:0 8px;}
+
+
+/*导航tip*/
+.navTop_tip{position:absolute;left:50%;top:30px;background:#fff;border-top:2px solid #FF3D54;min-width:100px;padding:5px 0;box-shadow: 0 3px 4px #AFA396;}
+.navTop_tip .sanjiao{background:url(http://img2.img.9xiu.com/public/webImg/common/head/head10.png) no-repeat;display:block;width: 12px;height: 5px;overflow:hidden;position:absolute;top:-7px;left:50%;margin-left:-6px;}
+
+.nav_tip{text-align:center;}
+.nav_tip a{display:block;padding:0 10px;height:30px;height:30px;line-height:30px;color:#555;white-space: nowrap;overflow:hidden;font-size:14px;}
+
+/*播放纪录*/
+.navTop_tip_b .sanjiao{background-image:url(http://img2.img.9xiu.com/public/webImg/common/head/head11.png);width: 18px;height: 7px;margin-left:-9px;top:-9px;}
+
+.palyRecord_tip,.myfollow_tip,.loginTip{width: 225px;left:-70px;padding-top:20px;}
+.palyRecord_tip a{display:block;overflow:hidden;padding:0 20px 15px 18px;color:#999;}
+.palyRecord_tip span{float:left;}
+.palyRecord_tip .liveGif{width: 8px;height: 11px;background:url(http://img2.img.9xiu.com/public/webImg/common/head/livestatus.gif) no-repeat;float:right;}
+.palyRecord_tip_cont{height: 200px;overflow:hidden;position:relative;}
+
+/*关注*/
+.myfollow_tip{}
+.myfollow_tip a{height:30px;line-height:30px;padding:0 20px 0 10px;margin-bottom:10px;}
+.myfollow_tip img{float:left;width: 30px;height: 30px;border-radius:50px;margin-right:10px;}
+.myfollow_tip .liveGif{margin-top:10px;}
+.myfollow_tip_cont{height: 240px;overflow:hidden;position:relative;}
+.noneLogins{text-align:center;height:120px;}
+.noneLogins p{color:#999;padding:10px 0 22px 0;}
+.noneLogins a{display:inline-block;width: 134px;height: 35px;line-height:35px;color:#333;font-size:14px;border-radius:50px;border:1px solid #FF3D55;padding:0;}
+
+/*登录*/
+.photoA{display:inline-block;width: 38px;height: 38px;overflow:hidden;border-radius:50px;margin-top:-10px;background:#D1D1D1;}
+.photoA img{width:100%;height:100%;}
+.loginTip{left:-92px;top:40px;color:#555;font-size:14px;}
+.loginTip a{color:#555;}
+.loginCont{padding:0 18px;}
+.loginTip img{width: 70px;height: 70px;border-radius:50%;margin-left:60px;background:#F0F0F0;}
+.loginTip p{margin-top:10px;text-align:center;}
+.loginTip b{color:#555;}
+.loginTip .headlevel em,.loginTip .headlevel b{vertical-align:middle;padding:0;}
+.loginTip .headmoney{position:relative;}
+.loginTip .headmoney b{color:#fb265e;display:block;text-align:left;padding-left:40px;height: 25px;line-height:25px;}
+.loginTip .headmoney a{position:absolute;right:0;top:3px;text-decoration:underline;}
+.loginTip .h_jb{background:url(http://img2.img.9xiu.com/public/webImg/common/head/head12.png) no-repeat left center;}
+.loginTip .h_jd{background:url(http://img2.img.9xiu.com/public/webImg/common/head/head13.png) no-repeat left center;}
+.loginTip .headname{text-align:center;}
+.loginTip .h_ic1{background:url(http://img2.img.9xiu.com/public/webImg/common/head/head14.png) no-repeat left center;padding-left:20px;}
+.loginTip .h_ic2{background:url(http://img2.img.9xiu.com/public/webImg/common/head/head15.png) no-repeat left center;padding-left:20px;}
+.loginTip .headout{display:block;text-align: center;height:36px;line-height:36px;border:1px solid #FF3D54;border-radius:50px;margin:15px 0;}
+
+/* 头部滚动条 */
+.web_nav_bbg  .scrollbar{background:#fff !important;right:5px;display:none;}
+.web_nav_bbg .thumb{background:#E6E6E6 !important;}
+.web_nav_bbg .scrollbar,.web_nav_bbg .track,.web_nav_bbg .thumb{width:6px;}
+
+/* footer
+===================================*/
+
+.footer{width:100%;margin-top:50px;}
+.footer .warp{margin: auto;min-width: 1240px; max-width: 1424px; border-top: 2px solid #E1E3EB;}
+.footer a{float: left;z-index:5;}
+.footer .links{float:none;position:relative;top:0;color:#a2a2a2;left:0;}
+.footer .links:hover{text-decoration:underline;}
+.footer .copyright{color: #a2a2a2;line-height:180%;text-align:center; margin-top: 20px;}
+
+.jianhu{position:absolute;right:-60px;bottom:-105px;} 
+
+.footer .warp .section{border-bottom: 1px solid #E1E3EB; height: 126px; overflow: hidden;zoom:1; width: 100%; padding: 20px 0px;width:1080px;margin:0 auto;}
+.footer .warp .section a{ position: static;}
+.footer .warp .section div{ float: left;  width: 110px; margin: 0px 0px 0px 90px;}
+.footer .warp .section .section_logo{ float: left; width: 232px; height: 60px; margin: 30px 0px 0px 30px; background: url(http://img3.img.9xiu.com/public/webImg/common/logo8.png) no-repeat left}
+.footer .warp .section div a,.footer .warp .section div strong{ display: block; width: 100%;}
+.footer .warp .section div strong{ color:#454545; font-size: 15px; line-height: 28px;}
+.footer .warp .section div a{ font-size: 12px; color: #666666; line-height: 24px;}
+.footer .copyright{ width: 1128px; margin: 0px auto; padding: 30px 0px;}
+.footer .copyright span{ padding: 0px 24px; border-right: 1px solid #A6A6A7; line-height: 100%; margin: 6px 0px; display: inline-block;}
+.footer .copyright span.noneborder{ border-right: 0px;}
+
+.frdlink{border-bottom:1px solid #E1E3EB;color:#999;padding:18px 5px;text-align:center;}
+.frdlink dt{display:inline-block;vertical-align:middle;}
+.frdlink dd{display:inline-block;padding-left:20px;vertical-align:middle;}
+.frdlink a{color:#999;}
+.frdlink dd a:hover{text-decoration:underline;}
+
+/* head 风行接入头 */
+.FX_head{height:40px;background:#F3F3F3;width:100%;}
+.from_Fx .web_nav_bbg{height:167px;}
+.syv5-nav{width:1000px;height:40px;margin:0 auto;position:relative;z-index:1000}
+.syv5-nav .logov5{width:352px;height:40px;background:url(http://game.funshion.com/v6/public/img/common/head/img/logov5_4d47a25c.gif) no-repeat;font-size:12px;float:left}
+.syv5-nav .logov5 a{width:352px;height:40px;display:block}
+.syv5-nav .syv5-rctv{float:right}
+.syv5-nav .syv5-alistv span{width:16px;height:18px;float:left}
+.syv5-nav .syv5-alistv span.icon_home{background-repeat: no-repeat;}
+.syv5-nav .syv5-alistv span.icon_pay{background-repeat: no-repeat;}
+.syv5-nav .syv5-alistv span.icon_kefu{background-repeat: no-repeat;}
+.syv5-nav .syv5-alistv span.icon_fav{background-repeat: no-repeat;}
+.syv5-nav .syv5-alistv a{color:#444;padding:0 13px 0 4px;margin-right:13px;text-decoration:none;font-size:12px;height:18px;line-height:18px;float:left;display:inline}
+.syv5-nav .syv5-alistv a:hover{text-decoration:underline}
+.syv5-nav .syv5-alistv{float:right;/*width:320px;*/padding-top:14px;height:18px;line-height:18px;overflow:hidden}
+.syv5-nav .syv5-alistvb{width:89px;height:30px;margin-top:10px;float:right;cursor:pointer;background-repeat: no-repeat;}
+.syv5-nav .yxdq{height:35px;margin-top:5px;background-repeat: no-repeat;}
+.syv5-nav .yxdq .hv5-show{display:block}
+.syv5-nav .syv5-alistv span{background-image: url(http://game.funshion.com/v6/public/img/common/head/head_z_153ad156.png)}
+.syv5-nav .syv5-alistv span.icon_home{background-position:-74px -74px}
+.syv5-nav .syv5-alistv span.icon_pay{background-position:-73px -101px}
+.syv5-nav .syv5-alistv span.icon_kefu{background-position:-73px -127px}
+.syv5-nav .syv5-alistv span.icon_fav{background-position:-73px -153px}
+.syv5-nav .syv5-alistv span.phone_name{ width: 60px; color: #444;}

@@ -1,0 +1,71 @@
+/*
+CSS Reset
+理念：1. reset 的目的不是清除浏览器的默认样式，这仅是部分工作。清除和重置是紧密不可分的。
+     2. reset 的目的不是让默认样式在所有浏览器下一致，而是减少默认样式有可能带来的问题。
+     3. reset 期望提供一套普适通用的基础样式。但没有银弹，推荐根据具体需求，裁剪和修改后再使用。
+特色：1. 适应中文；2. 基于最新主流浏览器。
+*/
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+
+/** 设置默认字体 **/
+body,
+button, input, select, textarea /* for ie */ {
+	/* 宋体垫底，不使用sans-serif,simsun字体，避免GB编码请求编码设置为utf-8时，非中文操作系统下IE以 sans-serif字体显示中文*/
+    font: 12px/1.5  Tahoma,"宋体", \5b8b\4f53;
+}
+/*中文字体差异*/
+.cn,
+.cn button, .cn input, .cn select, .cn textarea /* for ie */ {
+	/* 宋体垫底，不使用sans-serif,simsun字体，避免GB编码请求编码设置为utf-8时，非中文操作系统下IE以 sans-serif字体显示中文*/
+    font: 12px/1.5  Tahoma,"宋体", \5b8b\4f53;
+}
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%;font-weight:normal;}
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: Tahoma,"宋体"; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+
+/** 重置列表元素 **/
+ul, ol, li { list-style: none; }
+
+/** 重置文本格式元素 **/
+a { text-decoration: none;}
+a:hover { text-decoration: none; }
+
+sup { vertical-align: text-top; } /* 重置，减少对行高的影响 */
+sub { vertical-align: text-bottom; }
+
+/** 重置表单元素 **/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea { font-size: 100%; } /* 使得表单元素在 ie 下能继承字体大小 */
+/* 注：optgroup 无法扶正 */
+
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0; }
+th{ font-weight:normal;}
+
+/*纠正chrome不支持小于12号字体bug*/
+html{-webkit-text-size-adjust: none;}
+
+/* 去掉加粗 */
+b,strong{font-weight:normal;}
+
+/* 去掉斜体 */
+i{font-style:normal;}
+
+/*清理浮动*/
+.clearfix:after {clear:both;visibility:hidden;display:block;font-size:0;content:" ";height:0;}
+.clearfix {*zoom:1;}
+.main{position:relative;}
+iframe{border:0 none;}
+

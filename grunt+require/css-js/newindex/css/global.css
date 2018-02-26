@@ -1,0 +1,588 @@
+.insertHideDom{display:none!important;}
+.loadingLogoBg{background:none!important;}
+.text_hidden{white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow:hidden;}
+.text_indent{overflow:hidden;text-indent:-300%;*font-size:0;*line-height:0;*text-indent:0;}
+.yahei{font-family:'Microsoft Yahei';}
+.pointer{cursor:pointer;}
+.relative{position:relative;top:0;left:0;}
+.poab{position:absolute;}
+.inlineblock{display:inline-block;}
+.borderNone{border:0 none !important;}
+.backNone{background:none !important;}
+.hide{display:none !important;}
+.marginNone{margin:0 !important;}
+.paddingNone{padding:0 !important;}
+.border_C{border:1px solid #CCC;}
+.fn_left{float:left;display:inline;}
+.fn_right{float:right;display:inline;}
+.clear{clear:both;}
+.shadow{-webkit-box-shadow: 0 0 8px 1px rgba(0,0,0,.07);-moz-box-shadow: 0 0 8px 1px rgba(0,0,0,.07);box-shadow: 0 0 8px 1px rgba(0,0,0,.07);}
+.shadow30{-webkit-box-shadow: 0 0 8px 1px rgba(0,0,0,.3);-moz-box-shadow: 0 0 8px 1px rgba(0,0,0,.3);box-shadow: 0 0 8px 1px rgba(0,0,0,.3);}
+.redPoint{background-position:-100px -25px;width:5px;height:5px;position:absolute;}
+
+.yj_pop{-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;}
+.transition{-moz-transition: all 0.3s;-webkit-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s;}
+.transition5{-moz-transition: all 0.5s;-webkit-transition: all 0.5s;-o-transition: all 0.5s;transition: all 0.5s;}
+
+.imgGray{-webkit-filter: grayscale(100%); -webkit-filter: grayscale(1); filter: grayscale(100%);filter:gray; }
+
+/* 元素重置
+==================================*/ 
+body,html{background:#FFF;_overflow-x:hidden;_background-image:url(about:blank);}
+a{color:#333;}
+img{vertical-align:middle;}
+input,textarea{font-family:Verdana, Geneva, sans-serif;background:#FFF;}
+.text_input{border:1px solid #CCC;height:26px;line-height:26px \9;padding:0 3px;margin:0 5px; vertical-align: middle;}
+.radiu_input{margin:0 5px -5px 0; vertical-align: middle;position:relative;top:-3px;}
+.button_input{border:0 none;background:#FF4492;color:#FFF;border-radius: 3px;padding:5px 20px;cursor: pointer;vertical-align: middle;transition:background 0.5s linear;	-webkit-transition:background 0.5s linear;	-moz-transition:background 0.5s linear;	-o-transition:background 0.5s linear;}
+.button_input:hover{background: #E02171;}
+.checkbox_input{vertical-align: middle;border-radius: 2px;}
+textarea{border:1px solid #CCC;padding:3px;}
+
+
+/* 主播等级图标 
+==================================*/
+.icon_live_level{ display:inline-block;width:23px;height:18px;background-repeat:no-repeat;background-position:center center;}
+.icon_live_level_1{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/1.png?id=16121501);}
+.icon_live_level_2{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/2.png?id=16121501); }
+.icon_live_level_3{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/3.png?id=16121501); }
+.icon_live_level_4{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/4.png?id=16121501); }
+.icon_live_level_5{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/5.png?id=16121501); }
+.icon_live_level_6{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/6.png?id=16121501); }
+.icon_live_level_7{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/7.png?id=16121501); }
+.icon_live_level_8{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/8.png?id=16121501); }
+.icon_live_level_9{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/9.png?id=16121501); }
+.icon_live_level_10{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/10.png?id=16121501); }
+.icon_live_level_11{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/11.gif?id=16121501); }
+.icon_live_level_12{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/12.gif?id=16121501); }
+.icon_live_level_13{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/13.gif?id=16121501); }
+.icon_live_level_14{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/14.gif?id=16121501); }
+.icon_live_level_15{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/15.gif?id=16121501); }
+.icon_live_level_16{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/16.gif?id=16121501); }
+.icon_live_level_17{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/17.gif?id=16121501); }
+.icon_live_level_18{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/18.gif?id=16121501); }
+.icon_live_level_19{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/19.gif?id=16121501); }
+.icon_live_level_20{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/20.gif?id=16121501); }
+.icon_live_level_21{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/21.gif?id=16121501); }
+.icon_live_level_22{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/22.gif?id=16121501); }
+.icon_live_level_23{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/23.gif?id=16121501); }
+.icon_live_level_24{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/24.gif?id=16121501); }
+.icon_live_level_25{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/25.gif?id=16121501); }
+.icon_live_level_26{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/26.gif?id=16121501); }
+.icon_live_level_27{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/27.gif?id=16121501); }
+.icon_live_level_28{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/28.gif?id=16121501); }
+.icon_live_level_29{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/29.gif?id=16121501); }
+.icon_live_level_30{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/live/30.gif?id=16121501); }
+
+/* 财富等级图标
+==================================*/
+
+.icon_rich_level,.icon_rich_level_yunyin,.icon_rich_level_mystery{ display:inline-block; height:16px; width:43px;background-repeat:no-repeat;background-position:center center;}
+.icon_rich_level_0{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/0.png?id=16121501);}
+.icon_rich_level_1{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/1.png?id=16121501);}
+.icon_rich_level_2{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/2.png?id=16121501); }
+.icon_rich_level_3{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/3.png?id=16121501); }
+.icon_rich_level_4{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/4.png?id=16121501); }
+.icon_rich_level_5{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/5.png?id=16121501); }
+.icon_rich_level_6{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/6.png?id=16121501); }
+.icon_rich_level_7{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/7.png?id=16121501); }
+.icon_rich_level_8{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/8.gif?id=16121501); }
+.icon_rich_level_9{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/9.gif?id=16121501); }
+.icon_rich_level_10{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/10.gif?id=16121501); }
+.icon_rich_level_11{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/11.gif?id=16121501);}
+.icon_rich_level_12{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/12.gif?id=16121501);}
+.icon_rich_level_13{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/13.gif?id=16121501);}
+.icon_rich_level_14{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/14.gif?id=16121501);}
+.icon_rich_level_15{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/15.gif?id=16121501);}
+.icon_rich_level_16{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/16.gif?id=16121501);}
+.icon_rich_level_17{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/17.gif?id=16121501);}
+.icon_rich_level_18{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/18.gif?id=16121501);}
+.icon_rich_level_19{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/19.gif?id=16121501);}
+.icon_rich_level_20{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/20.gif?id=16121501);}
+.icon_rich_level_21{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/21.gif?id=16121501);}
+.icon_rich_level_22{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/22.gif?id=17042601);}
+.icon_rich_level_23{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/23.gif?id=17042601);}
+.icon_rich_level_24{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/24.gif?id=17042601);}
+.icon_rich_level_25{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/25.gif?id=17042601);}
+.icon_rich_level_26{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/26.gif?id=17042601);}
+.icon_rich_level_27{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/27.gif?id=16121501);}
+.icon_rich_level_28{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/28.gif?id=16121501);}
+.icon_rich_level_29{ background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/29.gif?id=16121501);}
+.icon_rich_level_yunyin{background-image:url(http://img3.img.9xiu.com/public/webImg/common/wealth/yunying.png?id=16121501);}
+.icon_rich_level_mystery{background-image:url(http://img2.img.9xiu.com/public/webImg/newlive/mysteryIcon.png);}
+
+
+/* PK段位等级图标 
+==================================*/
+.icon_pk_level{ display:inline-block;width:43px;height:21px;background-repeat:no-repeat;background-position:center center;margin-top:-5px !important;}
+.icon_pk_level_1_1{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/1-4.png?id=1);}
+.icon_pk_level_1_2{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/1-3.png?id=1);}
+.icon_pk_level_1_3{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/1-2.png?id=1);}
+.icon_pk_level_1_4{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/1-1.png?id=1);}
+/*.icon_pk_level_1_5{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/1-1.png?id=1);}*/
+
+.icon_pk_level_2_1{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/2-4.png?id=1);}
+.icon_pk_level_2_2{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/2-3.png?id=1);}
+.icon_pk_level_2_3{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/2-2.png?id=1);}
+.icon_pk_level_2_4{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/2-1.png?id=1);}
+/*.icon_pk_level_2_5{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/2-1.png?id=1);}*/
+
+.icon_pk_level_3_1{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/3-4.png?id=1);}
+.icon_pk_level_3_2{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/3-3.png?id=1);}
+.icon_pk_level_3_3{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/3-2.png?id=1);}
+.icon_pk_level_3_4{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/3-1.png?id=1);}
+/*.icon_pk_level_3_5{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/3-1.png?id=1);}*/
+
+.icon_pk_level_4_1{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/4-4.png?id=1);}
+.icon_pk_level_4_2{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/4-3.png?id=1);}
+.icon_pk_level_4_3{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/4-2.png?id=1);}
+.icon_pk_level_4_4{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/4-1.png?id=1);}
+/*.icon_pk_level_4_5{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/4-1.png?id=1);}*/
+
+.icon_pk_level_5_1{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/5-4.png?id=1);}
+.icon_pk_level_5_2{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/5-3.png?id=1);}
+.icon_pk_level_5_3{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/5-2.png?id=1);}
+.icon_pk_level_5_4{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/5-1.png?id=1);}
+/*.icon_pk_level_5_5{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/5-1.png?id=1);}*/
+
+.icon_pk_level_6_1{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/6-4.png?id=1);}
+.icon_pk_level_6_2{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/6-3.png?id=1);}
+.icon_pk_level_6_3{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/6-2.png?id=1);}
+.icon_pk_level_6_4{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/6-1.png?id=1);}
+/*.icon_pk_level_6_5{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/6-1.png?id=1);}*/
+
+.icon_pk_level_7_1{background-image:url(http://img3.img.9xiu.com/public/webImg/common/pklevel/7-1.png?id=2); position: relative; top: 3px;}
+
+/* 斗图卡 图标
+=================================*/
+.doutucardIcon{display:inline-block;width:21px;height:21px;background-repeat:no-repeat;background-image:url(http://img2.img.9xiu.com/public/webImg/room/doutu.png);position:relative;top:1px;}
+
+/* VIP 图标
+=================================*/
+.vip800001,.vip800002,.vip800003,.vip800004{display:inline-block;width:43px;height:16px;background-repeat:no-repeat;}
+.vip800001{background-image:url(http://img2.img.9xiu.com/public/webImg/common/vip/vip1.gif);}
+.vip800002{background-image:url(http://img2.img.9xiu.com/public/webImg/common/vip/vip2.gif);}
+.vip800003{background-image:url(http://img2.img.9xiu.com/public/webImg/common/vip/vip3.gif);}
+.vip800004{background-image:url(http://img2.img.9xiu.com/public/webImg/common/vip/vip4.gif);}
+
+/* 闪星样式
+==================================*/
+.star_shining{display:inline-block;height:16px;position:relative;}  
+.star_shining .start_img{display:inline-block;width:43px;height:18px;position:absolute;top:-1px;left:50%;margin-left:-19px;z-index:2;background-repeat:no-repeat;}
+.star_shining .star_shining_1{background-image:url(http://img3.img.9xiu.com/public/webImg/common/star_shining_1.gif?id=16121501);}
+.star_shining .star_shining_2{background-image:url(http://img3.img.9xiu.com/public/webImg/common/star_shining_2.gif?id=16121501);}
+.star_shining .star_shining_3{background-image:url(http://img3.img.9xiu.com/public/webImg/common/star_shining_3.gif?id=16121501);}
+.star_shining .star_shining_4{background-image:url(http://img3.img.9xiu.com/public/webImg/common/star_shining_4.gif?id=16121501);}
+.star_shining .star_shining_5{background-image:url(http://img3.img.9xiu.com/public/webImg/common/star_shining_5.gif?id=16121501);}
+
+/* 周星图标
+===================================*/
+
+.robstar{top:2px;left:2px;z-index:4;}
+.robstar,.robstar em{display:inline-block;width:28px;height:28px;background:url(http://img3.img.9xiu.com/public/webImg/common/robstar.png) no-repeat;}
+.robstar .robstar_2{background:url(http://img3.img.9xiu.com/public/webImg/common/robstar1.gif) no-repeat;}
+.robstar .robstar_3{background:url(http://img3.img.9xiu.com/public/webImg/common/robstar2.gif) no-repeat;}
+.robstar .robstar_4{background:url(http://img3.img.9xiu.com/public/webImg/common/robstar3.gif) no-repeat;}
+.robstar .robstar_5{background:url(http://img3.img.9xiu.com/public/webImg/common/robstar4.gif) no-repeat;}
+.robstar .robstar_6{background:url(http://img3.img.9xiu.com/public/webImg/common/robstar5.gif) no-repeat;}
+
+/*********守护图标********/
+
+.gz_ico{background:url(http://img1.img.9xiu.com/public/webImg/common/gz_ico.png) no-repeat;display:inline-block;width:19px;height:20px; vertical-align:middle;*position:relative;*top:50%;*margin-top:-20px;}
+.g90001_1{background-position:0 0;}
+.g90001_2{background-position:-20px 0;}
+.g90001_3{background-position:-40px  0;}
+.g90001_4{background-position:-60px  0;}
+.g90001_5{background-position:-80px  0;}
+.g90001_6{background-position:-100px  0;}
+.g90001_7{background-position:-120px  0;}
+
+.g90002_1{background-position:0 -25px;}
+.g90002_2{background-position:-20px -25px;}
+.g90002_3{background-position:-40px -25px;}
+.g90002_4{background-position:-60px -25px;}
+.g90002_5{background-position:-80px -25px;}
+.g90002_6{background-position:-100px -25px;}
+.g90002_7{background-position:-120px -25px;}
+
+.g90003_1{background-position:0 -50px;}
+.g90003_2{background-position:-20px -50px;}
+.g90003_3{background-position:-40px -50px;}
+.g90003_4{background-position:-60px -50px;}
+.g90003_5{background-position:-80px -50px;}
+.g90003_6{background-position:-100px -50px;}
+.g90003_7{background-position:-120px -50px;}
+
+.g90004_1{background-position:0 -75px;}
+.g90004_2{background-position:-20px -75px;}
+.g90004_3{background-position:-40px -75px;}
+.g90004_4{background-position:-60px -75px;}
+.g90004_5{background-position:-80px -75px;}
+.g90004_6{background-position:-100px -75px;}
+.g90004_7{background-position:-120px -75px;}
+
+
+/* 表情 face_box ==》 face_list ==》 face_border ==》 a ==》 img
+=======================================*/
+.face_box{position:relative;z-index:2;}
+.face_list{background:#FFF;overflow:hidden;zoom:1;border:1px solid #CCC;position:absolute;width:311px;padding:5px;height:auto;top:-165px;left:0;}
+.face_list a{float:left;width:24px;height:24px;border-right:1px solid #DDD;border-bottom:1px solid #DDD;padding:3px;}
+.face_list a img{width:24px;height:24px;}
+.face_border{overflow:hidden;zoom:1;border-left:1px solid #DDD;border-top:1px solid #DDD;}
+
+/* 分页
+=======================================*/
+.page_box{text-align:center;padding:20px 0 35px 0;}
+.page_box a,.page_box strong{display:inline-block;width:27px;height:27px;text-align:center;line-height:27px;margin-left:5px;}
+.page_box .page_last,.page_box .page_next{border:1px solid #CCC;height:27px;width:60px;}
+.page_box a:hover,.page_box strong{background:#FF0096;color:#FFF;border-color:#FF0096;}
+
+/* 弹出层 公用样式
+=======================================*/
+
+.Popup{background:#FFF;position:fixed;_position:absolute;top:50%;left:50%;width:306px;border:1px solid #CBCBCB;border-radius:4px;overflow:hidden;z-index:5001;margin:-100px 0 0 -153px;}
+.Popup .hd{background:url(http://img3.img.9xiu.com/public/webImg/common/Popup_hd_back.png) repeat-x;height:35px;border-bottom:1px solid #DDD;padding:0 10px;line-height:35px;}
+.Popup .hd span{color:#f69;font-size:15px;}
+.Popup .hd a{color:#737373;font-size:15px;}
+.Popup .hd .li{height: 33px;line-height: 35px;}
+.Popup .hd a.curr,.Popup .hd a:hover{color:#f69;}
+.Popup .hd .li:hover{border-bottom: 2px solid #f69;}
+.Popup .hd b{padding: 0 16px;color: #d3d3d3;}
+.popup_close{background:url(http://img3.img.9xiu.com/public/webImg/common/public.png) no-repeat;width:11px;height:11px;overflow:hidden;margin-top:12px;line-height: 0;font-size: 0 !important;}
+.popup_close:hover{background-position:0 -15px;}
+.popup_narrow{width:16px;height:11px;overflow:hidden;margin-top:12px;line-height:11px;font-size: 0 !important;}
+.popup_narrow i{display:inline-block;width:16px;height:2px;overflow:hidden;background:#463316;}
+.popup_narrow:hover i{background:#d3ab6e;}
+.Popup .bd{font-size:12px;color:#737373;padding:15px;}
+.Popup .bd a{color:#737373;}
+.Popup .popup_but{padding:15px;padding-bottom:0;text-align:center;}
+.Popup .popup_but input{border:0 none;height:30px;line-height:30px;padding:0 20px;background:#fa265d;color:#FFF;cursor:pointer;outline:none;border-radius:2px;margin:0 5px;}
+.Popup .popup_but input:hover{background:#FA4D83;}
+
+/* 弹出层普通样式
+================*/
+.Popup .popup_common{text-align:center;}
+.Popup .popup_common a,.Popup .popup_common p{line-height:180%;margin-bottom:10px;}
+.Popup .popup_common a{color:#F69;text-decoration:underline;}
+
+/* 引用公共背景图
+================*/
+.bg{
+	background:url(http://img3.img.9xiu.com/public/webImg/common/public.png) no-repeat;
+	overflow: hidden;
+}
+
+/* 直播间 经验条
+======================================*/
+.barbox{height: 14px;overflow: hidden;position:relative;background: #BCBCBC;border-radius: 8px;}
+.barcont{height: 100%;background: #E8337B;position: absolute;top:0;left:0;z-index:1;border-radius: 8px;}
+.bar_txt{position: absolute;width: 100%;height: 100%;text-align: center;color: #FFF;line-height: 14px;z-index:2;font-size: 12px;}
+.bar_tips{background:#F69;color:#FFF;position: absolute;/*top:52px;left:190px;*/z-index:100;padding:1px 5px;border-radius:3px; }
+.bar_tips span{padding:0 5px;}
+
+/* 右下角功能栏
+========================================*/
+.rig_nav_back{background: url(http://img3.img.9xiu.com/public/webImg/common/rig_back.png) no-repeat;display: inline-block;overflow: hidden;}
+.rig_nav{position: fixed;right: 0;bottom: 0;_position:absolute;z-index:1001;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight));}
+.rig_nav a{display:block;margin-top:5px;font-size: 0;line-height: 0;position:absolute;right:0;}
+.rig_nav .rig_4{width:90px;height:33px;background:url(http://img3.img.9xiu.com/public/webImg/common/xs.png) no-repeat;bottom:40px;}
+.rig_nav .rig_4 span{display:block;width:18px;height:18px;background:url(http://img3.img.9xiu.com/public/webImg/common/jb.gif) no-repeat;margin:7px 0 0 7px;}
+.rig_nav .rig_6{width:89px;height:34px;background:url(http://img3.img.9xiu.com/public/webImg/common/laba.png) no-repeat;bottom:0;}
+
+/* 右下角功能栏 弹出层
+=============================*/
+.rig_nav_Box{width:34px;position: fixed;bottom: 41px;right:0; z-index:1000;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-41));}
+.rig_nav_Box .bd{padding:0;}
+.rig_nav_Box .Popup{position: absolute;margin:0;top:auto;left:auto;bottom:35px;right:-550px;overflow:visible;border:1px solid #CBCBCB;}
+.rig_nav_Box .hd span{font-weight: bold;}
+
+/* 新手任务
+==============*/
+.Newbie_task{width:296px;border-radius:0;}
+.Newbie_task .hd{background:#F7F7F7;height:33px;}
+.Newbie_task .hd span{font-size:12px;color:#494949;font-weight:normal;}
+.Newbie_task .bd{padding:0 6px;}
+.Newbie_task li em{ vertical-align: middle;color:#555F62;}
+.Newbie_task li{border-bottom:1px solid #DDD;padding:8px 0;}
+.rig_icon1{background-position:0 0;}
+.rig_icon2{background-position:0 -32px;}
+.rig_icon3{background-position:0 -64px;}
+.rig_icon4{background-position:0 -96px;}
+.rig_icon5{background-position:0 -128px;}
+.rig_icon6{background-position:0 -160px;}
+.rig_icon4 b{display:none;}
+.rig_nav .rig_6{display:none;}
+.Newbie_task a.newbie_but{width:54px;height:19px;background:#09B4F0;text-align: center;line-height: 18px;color:#FFF;border:1px solid #7FC81E;}
+.newbie_gold{display:inline-block;width:245px;vertical-align:middle;padding-left:5px}
+.newbie_txt{display:inline-block;width:30px;height:30px;vertical-align:middle;}
+.Newbie_task a.newbie_but_none{background:#E5E5E5;color: #616161;border:1px solid #CDCDCD;}
+.newbie_gold em{display:block;}
+.Newbie_task li em .color7FC81E{color:#7FC81E;}
+
+/* 贵族颜色
+========================================*/
+
+.gz_color1_1,.gz_color1_2,.gz_color1_3{color:#0edc60 !important;}
+.gz_color1_4,.gz_color1_5,.gz_color1_6{color:#00d8ff !important;}
+.gz_color1_7{color:#ec6dff !important;}
+
+.gz_color2_1,.gz_color2_2,.gz_color2_3{color:#a7a3ff !important;}
+.gz_color2_4,.gz_color2_5,.gz_color2_6{color:#ffae2e !important;}
+.gz_color2_7{color:#ffef37 !important;}
+
+/* 至VIP颜色尊
+========================================*/
+.vipsendcolor{color:#86fed0 !important;}
+.viplistcolor{color:#FF9D45 !important;}
+
+/* 二维码
+============================*/
+.erweimaBox{display:block;width:123px;height:187px;background:url(http://img3.img.9xiu.com/public/webImg/common/er.png) no-repeat;z-index:10;position:fixed;_position:absolute;left:0;top:470px;}
+.erweimaBox a{display:block;width:18px;height:18px;position:absolute;right:0;bottom:0;background:#000;opacity:0;filter:alpha(opacity=0);z-index:10;}
+
+/* 闪光效果
+=============================*/
+.flicker_box{position: relative;overflow: hidden;}
+
+.flicker_cont{pointer-events:none;*display:none;position:absolute;top:-50px;left:-200px;display: block;width:150px;height:150px;
+	background:-webkit-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,0.7),rgba(255,255,255,0));
+	background:-moz-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,0.7),rgba(255,255,255,0));
+	background:-o-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,0.7),rgba(255,255,255,0));
+	transform:skew(-25deg);-webkit-transform:skew(-25deg);-moz-transform:skew(-25deg);-o-transform:skew(-25deg);
+}
+.flicker_box:hover .flicker_cont{
+	left:200px;transition:left 0.5s;-webkit-transition:left 0.5s;-moz-transition:left 0.5s;-o-transition:left 0.5s;
+}
+
+
+/*loading*/
+#loading{
+	position: fixed;
+	*position: absolute;
+	margin-left: -30px;
+	margin-top: -30px;
+	left: 50%;
+	top: 50%;
+	z-index: 8888;
+}
+
+/* 客服QQ
+=====================================*/
+.QQonline a{display:inline-block;vertical-align:middle;width:22px;height:22px;background:url(http://img3.img.9xiu.com/public/webImg/common/newQQonline.png) 0 -22px no-repeat;margin-right:5px;}
+.QQonline .Qonline{background-position:0 0;}
+
+
+/* 背景层
+====================================================*/
+
+.dialoger {
+	position:fixed;
+	_position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:5000;
+}
+.dialoger .cover_ifr{
+	position:fixed;
+	_position:absolute;
+	width: 100%;
+	height: 100%;
+	filter: alpha(opacity = 0);
+	opacity: 0;
+}
+.dialoger .cover {
+	position:fixed;
+	_position:absolute;
+	width:100%;
+	height:100%;
+	background:#000;
+	filter:alpha(opacity = 50);
+	opacity:.5;
+}
+
+/* 首次登录 礼包
+================================================*/
+.OneLogin_animate{width:406px;height:246px;position:fixed;_position:absolute;z-index:5100;top:50%;left:50%;margin:-180px 0 0 -203px;}
+
+/* 家族徽章
+================================================*/
+.fam_badge_0{display:inline-block;width:40px;height:17px;text-align:center;line-height:17px;vertical-align:middle;font-size:12px;color:#fff;background:url(http://img3.img.9xiu.com/public/img/badge/fmBadge/fam_badge.png) left top no-repeat;overflow:hidden;}
+
+.fm_badge_honor{background-image:url(http://img3.img.9xiu.com/public/img/badge/fmBadge/fm_honor_userlist.png?id=16121501);width:43px;height:16px;}
+.fm_badge_honor6{background-position:0 0;}
+.fm_badge_honor5{background-position:0 -17px;}
+.fm_badge_honor4{background-position:0 -34px;color:#792900;}
+.fm_badge_honor3{background-position:0 -51px;color:#790000;}
+.fm_badge_honor2{background-position:0 -68px;color:#003D5C;}
+.fm_badge_honor1{background-position:0 -85px;color:#444451;}
+
+/* 家族头衔
+==============*/
+.fm_honor_icon6,.fm_honor_icon5,.fm_honor_icon4,.fm_honor_icon3,.fm_honor_icon2,.fm_honor_icon1{display:inline-block;width:32px;height:16px;overflow:hidden;line-height:16px;text-align:center;color:#FFF;font-size:12px;background:url(http://img1.img.9xiu.com/public/webImg/common/fm_honor_icon.png) no-repeat;vertical-align:middle;margin-right:5px;}
+.fm_honor_icon6{background-position:0 0;}
+.fm_honor_icon5{background-position:0 -18px;}
+.fm_honor_icon4{background-position:0 -36px;}
+.fm_honor_icon3{background-position:0 -54px;}
+.fm_honor_icon2{background-position:0 -72px;}
+.fm_honor_icon1{background-position:0 -90px;color:#7d7d80;}
+
+/* 头条跑道
+==============*/
+.fisrtRun_l,.fisrtRun_r{background:url(http://img1.img.9xiu.com/public/webImg/common/fisrtRunway_ico.png) no-repeat;width:10px;height:33px;top:2px;}
+.fisrtRun_l{left:0;background-position:left 0;}
+.fisrtRun_r{right:0;background-position:right 0;}
+
+/* 公用弹层(不添加逻辑)
+==============*/
+.globalWarp{  background: #FFF;position: fixed;_position: absolute;top: 50%;left: 50%;width: 546px;border: 1px solid #CBCBCB;overflow: hidden;z-index: 4800;margin: -149px 0 0 -273px;height:298px;}
+.globalWarp h2{ background: url(http://img3.img.9xiu.com/public/webImg/common/Popup_hd_back.png) repeat-x;height: 35px; border-bottom: 1px solid #FF077E;padding: 0 10px;line-height: 35px;}
+.globalWarp h2 span{color: #f69;font-size: 16px;}
+.globalWarp .globalBox{} 
+
+/* 转移观众
+==============*/
+.changeBox{text-align:center;padding-top:40px;height:223px;} 
+.changeAhoBox p{font-size:16px;color:#ff077e;}
+.changeAhoBox input{border:2px solid #b9b9b9;background:#fff !important;width:372px;height:34px;line-height:34px;font-size:14px;color:#B8B4B4;display:block;margin:36px auto;text-align:center;}
+
+.changeUserBox{background:url(http://img2.img.9xiu.com/public/webImg/common/changeRoomUserBg.png) 11px 35px no-repeat}
+
+.changeUserBox .changeBut{margin:0 10px;}
+.changeUserBox p.tip{font-size:16px;color:#454545;font-weight: bold;}
+.changeUserBox p.tip b{color:#ff077e;font-size:18px;padding:0 10px;}
+.changeUserBox .link{font-size:16px;color:#454545;background:url(http://img2.img.9xiu.com/public/webImg/common/changRoomLinkBg.png) repeat;width:296px;height:35px;line-height:36px;text-align:center;margin:39px auto;border-radius:5px;}
+
+.changeBut{display:inline-block;color:#fff;font-size:14px;background:#fc1685;width:113px;height:38px;text-align:center;line-height:38px;border-radius: 5px;}
+
+.changePointBox{position:relative;}
+.changePointBox b.redPoint{right:4px;top:18px;}
+.changePointBox .aho_changeRoom b.redPoint{right:-6px;top:-1px;}
+
+/* 签到弹层
+==============*/
+.showSign{position:relative;}
+.showSign img{position:absolute;right:5px;top:5px;}
+.signIcon{background:url('http://img2.img.9xiu.com/public/webImg/common/SignIcon.png?id=akjss') 0 0 no-repeat;display:inline-block;}
+.signWrap{width:886px;height:590px;margin-left:-442px;margin-top:-295px;position:fixed;left:50%;top:50%;z-index:4888;border-radius:20px;overflow:hidden;}
+.signClose{right:20px;top:20px;background-position:-217px -102px;width:24px;height:24px;cursor:pointer;z-index:10;}
+.maoding{position:absolute;z-index:2;width:43px;height: 23px;background-position:-260px -101px;left:262px;top:60px;}
+.signTimeNum .type2{cursor:pointer;}
+.signRewardBox{width:280px; height:590px;}
+.signTimeBox{width:606px;height:582px;background:#FFFBEE;border-bottom:7px solid #D4C8A5;position:relative;}
+.signBtn{width:208px;height:49px;background-position:-112px -307px;position:absolute;z-index:2;right:73px;bottom:48px;}
+.signBtn:hover{background-position:-112px -361px;}
+.signBtnNone,.signBtnNone:hover{background-position:-112px -415px;}
+
+.signTxt{position:absolute;color:#56acdf;font-size:16px;bottom:50px;left:68px;z-index:2;}
+.signTxt span{width: 22px;height: 22px;background-position:-171px -102px;position:relative;left:10px;top:5px;}
+.signTimeTit{height:65px;line-height:65px;text-align:center;font-size:18px;color:#585858;letter-spacing:5px;}
+.signTimeTit .signTimeOper a{width:8px;height:12px;padding:0 10px;}
+
+.signTime{width:518px;margin:0 auto;}
+
+.signTime .signTimeDay li{float:left;margin:5px 8px;width:58px;padding-bottom:10px;text-align:center;color:#585858;font-size:14px;}
+/* 常态 */
+.signTime .signTimeNum li{float:left;margin:5px 8px;width:58px;height:53px;text-align:center;background-position: -284px -162px;position:relative;}
+/* 无效天 */
+.signTime .signTimeNum li.noneDay{background-position:-193px -162px;}
+/* 当天 */
+.signTime .signTimeNum li.type2{background-position: -99px -233px;}
+.signTime .signTimeNum .type1,.signTime .signTimeNum .type3{position:relative;}
+.signTime .signTimeNum b.qian{position:absolute;top:0;left:0;background-position: -97px -162px;width:72px;height:66px;}
+.signTime .signTimeNum b.buqian{background-position: -96px -101px;position:absolute;top:17px;left:5px;width:48px;height:24px;cursor:pointer;z-index:5;}
+.signTime .signTimeNum span{width:54px;height:52px;}
+.signTime .signTimeNum .lqian{width:100%;height:100%;margin-top:0;}
+.buqianIcon{background-position:-2px -10px;}
+.qianIcon{background-position:-2px -70px;}
+.qian2_1{background-position:-2px -129px;}
+.qian2_2{background-position:-2px -185px;}
+.qian2_3{background-position:-2px -233px;}
+.qian2_4{background-position:-2px -280px;}
+.lqian1{background-position:-107px -18px;}
+.lqian2{background-position:-172px -15px;}
+.lqian3{background-position:-236px -15px;}
+.lqian4{background-position:-300px -16px;}
+
+.lqian1_1{background-position:-104px -539px;}
+.lqian2_1{background-position:-172px -539px;}
+.lqian3_1{background-position:-236px -539px;}
+.lqian4_1{background-position:-298px -538px;}
+
+.signShare{width: 540px;height: 617px;background:url(http://img3.img.9xiu.com/public/webImg/common/share.jpg) no-repeat;position:fixed;top:50%;left:50%;margin:-309px 0 0 -270px;z-index:4999;}
+
+.signShareBox{height: 110px;margin-top:475px;padding-left:45px;}
+.signShareBox a{float:left;width:72px;height:100%;background:#000;margin-right:50px;opacity:0;filter:alpha(opacity=1);}
+
+.lqianTip{position:absolute;background:url(http://img3.img.9xiu.com/public/webImg/common/signTipBg.png);padding:10px;min-width:200px;border:2px solid #FD5454;border-radius:10px;text-align:center;top:300px;left:840px;z-index:4889;color:#fff;font-size:14px;}
+.lqianTip em{width: 24px;height: 12px;background-position:-323px -107px;position:absolute;top:-12px;left:50%;margin-left:-12px;}
+.lqianTip b{color:#FD6B4A;}
+
+.lqianListjl dl{float:left;width:100px;text-align:center;}
+.lqianListjl dt{height:65px;}
+.lqianListjl dt b{display:inline-block;height:100%;width:0;overflow:hidden;vertical-align: middle;}
+.lqianListjl dt span{vertical-align: middle;}
+.lqianListjl dt img{max-width:100%;max-height:65px;}
+.lqianListjl p{font-size:14px;color:#7C7B7D;text-align:center;padding-top:10px;clear:both;}
+
+#signFlash{width:380px;height:375px;margin:-280px 0 0 -190px;position:absolute;z-index:5001;position:fixed;top:50%;left:50%;}
+
+/* 730 688 */
+.signTxtTip{width:680px;padding:30px 25px;background:#FFF;position:fixed;top:50%;left:50%;z-index:5001;text-align:center;border-radius:10px;margin:-350px 0 0 -365px;}
+.signTxtTip h2{width: 529px;margin:0 auto;overflow:hidden;background:#F0F0F0;border-radius:50px;border:4px solid #F0F0F0;margin-bottom:50px;}
+.signTxtTip h2 a{float:left;width: 132px;line-height:53px;font-size:24px;color:#585858;border-radius:50px;}
+.signTxtTip h2 a.on{background:#FF5154;color:#fff;}
+.txtImglist img{display:none;}
+
+/*开播提醒*/
+.liveRemindPop,.aapop{position:fixed;right:0;bottom:33px;z-index:12;width:274px;height:72px;background:#383b43;text-align:center;padding-top:20px;}
+.aapop{bottom:200px;}
+.liveRemindPop a.close{position:absolute;right:0;top:0;width:21px;height: 21px;background: url(http://img2.img.9xiu.com/public/webImg/newlive/closeIcon.png) -8px -37px;right: 0;top: 0;display:inline-block;}
+.liveRemindPop .txt{color:#fff;font-size:14px;margin-bottom: 13px;}
+.liveRemindPop .txt span{color:#fa265d;padding:0 5px;}
+.liveRemindPop .goLiveRoom{display:inline-block;width:85px;height:22px;line-height:22px;border:1px solid #fa265d;color:#fa265d;border-radius:3px;font-size: 14px;}
+.liveRemindPop .goLiveRoom:hover{color:#fff;background:#fa265d;}
+
+.liveRemindWeek{height:175px;padding-top:0;background:#fff;}
+.liveRemindWeek p{color:#fff;padding:0 10px;}
+.liveRemindWeek .txt{color:#000;margin-top:10px;}
+.liveRemindWeek .weekAho{padding:10px 0;background:#fa265d;}
+.liveRemindWeek .weekAho p span{display:block;}
+.liveRemindWeek .weekAho p{text-align:left;}
+.liveRemindWeek .weekAho .imgBox{width:100px;text-align:right;padding-right:0;}
+.liveRemindWeek .weekAho img{width:56px;height:56px;border-radius:50%;} 
+.liveRemindWeek .weekAho em{vertical-align:middle;margin:5px 0 10px 0;}
+.liveRemindWeek .goLiveRoom{border-radius:15px;}
+
+/* VIP到期提醒 */
+.vipExpire{background:#fff;position:fixed;right:10px;bottom:-200px;z-index:4900;width: 274px;height: 175px;}
+.vipExpire h2{background:#FE225B;color:#fff;line-height:30px;padding:0 10px 0 15px;font-size:12px;}
+.vipExpire h2 a{float:right;color:#fff;font-size:22px;}
+.vipExpireCont{padding:15px 15px 15px 115px;background:url(http://img.img.9xiu.com/public/webImg/common/viptimeout.png) no-repeat 10px center;line-height:200%;border:1px solid #F0F0F0;box-shadow:0px 0px 3px #c3c3c4;font-size:12px;color:#000;}
+.vipExpireCont a{display:inline-block;color:#fa265d;border:1px solid #fa265d;width: 85px;height: 21px;line-height:21px;text-align:center;border-radius:30px;margin-top:15px;}
+.vipExpireCont span{color:#FE225B;}
+.vipExpireCont a:hover{background:#fa265d;color:#fff;}
+
+/* 红包领取弹层 */
+.yz_robRedEnvelope{position:fixed;width:320px;height:273px;left:50%;top:50%;margin:-140px 0 0 -170px;z-index:1200;*position:absolute;background:url(http://img.img.9xiu.com/public/webImg/common/hb_sc.png) no-repeat;color:#474747;}
+.yz_robRedEnvelope p{color:#FC3E5C;font-size:16px;font-weight:bold;}
+.yz_robRedEnvelope .redContent{text-align:center;position:relative;top:135px;}
+#red_gt_yz{margin-top:20px;}
+.yz_robRedEnvelope .tips__text{display:none;}
+.yz_robRedEnvelope .lsc{margin-top: 20px;padding:0 10px;}
+#robRederror{position:fixed;width:302px;height:244px;left:50%;top:50%;margin:-122px 0 0 -151px;z-index:1200;*position:absolute;background:url(http://img.img.9xiu.com/public/webImg/common/hb_er.png) no-repeat;}
+#robRederror p{color:#FC3E5C;font-size:16px;font-weight:bold;padding-top:190px;text-align:center;}
+.noneyz{width:338px;height:241px;margin:-120px 0 0 -169px;background:url(http://img.img.9xiu.com/public/webImg/common/hb_sc2.png) no-repeat;}
+.noneyz .redContent{top:182px;}
+
+/* Tiny Scrollbar */
+.viewport{overflow:hidden;}
+.scrollbar,.track,.thumb{position: absolute; right: 0; top: 0;width:5px;border-radius:5px;}
+.overview {position:absolute;list-style: none;padding: 0; margin: 0;width:100%; }
+.scrollbar{ background:#606269;float: right;z-index:4;}
+.track { height: 100%;  position: relative; padding: 0 1px; }
+.thumb { background:#bfc0c3; height: 20px;cursor: pointer; overflow: hidden;left:0;right:auto;border-radius:5px;}
+.thumb .end { background:none; overflow: hidden; height: 5px; width: 5px; }
+.disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }

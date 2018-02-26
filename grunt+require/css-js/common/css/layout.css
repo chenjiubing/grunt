@@ -1,0 +1,52 @@
+.m1200s00{
+	width: 1200px;
+	margin: auto;
+	overflow: hidden;
+}
+.layleft{
+	width:940px;
+	float:left;
+	_display:inline;
+	overflow:hidden;
+}
+.layright{
+	width:240px;
+	float:right;
+	_display:inline;
+	overflow:hidden;
+}
+.layright .rightwarps{
+	position: absolute;
+	width:240px;
+}
+.m1200_1010s00{
+	min-width: 1010px;
+	max-width: 1200px;
+	_width: 1010px;
+	margin:auto;
+}
+.m400c400s400{
+	width: 1200px;
+	margin: auto; 
+}
+.m400c400s400 .m,
+.m400c400s400 .c,
+.m400c400s400 .s{
+	float: left;
+	width: 384px;
+	margin-left: 21px;
+}
+.m400c400s400 .m{
+	margin-left: 0;
+}
+.topper{
+	margin-bottom: 12px;
+}
+.vui{
+	margin-bottom: 5px;
+}
+.rui{
+	margin-bottom: 10px;
+}
+
+.w1200{width:1180px;padding:0 10px;margin:0 auto;}

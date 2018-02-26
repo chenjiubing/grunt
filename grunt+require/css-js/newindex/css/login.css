@@ -1,0 +1,435 @@
+.gt_holder.popup.gt_show{z-index:6666;}
+.login_bg{
+	width:665px;
+	height:150px;
+	background:url(http://img1.img.9xiu.com/public/webImg/common/1.jpg) no-repeat;
+}
+.login_back{
+	background:url(http://img3.img.9xiu.com/public/webImg/common/loginBg.png) no-repeat;
+	display:inline-block;
+	overflow:hidden;
+}
+.login_newIcon{
+	background:url(http://img3.img.9xiu.com/public/webImg/common/newLoginIcon.png?id=100) no-repeat;
+	display:inline-block;
+	overflow:hidden;
+}
+.loginsTab{border-bottom:1px solid #eeeeee;margin-bottom:-1px;height:38px;}
+.loginsTab span{color:#636363;padding:0 15px;font-size:18px;cursor:pointer;display:inline-block;height:38px;line-height:38px;}
+.loginsTab span:hover,.loginsTab span.on{color:#ff6600;border-bottom:1px solid #ff6600;}
+.logins_box{
+	width:560px;
+	position: fixed;
+	_position:absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -315px;
+	margin-top: -250px;
+	z-index: 6000;
+	padding:15px 30px;
+	overflow:hidden;
+	-webkit-box-shadow: 0 0 5px 1px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 0 5px 1px rgba(0,0,0,.25);  
+	box-shadow: 0 0 5px 1px rgba(0,0,0,.25);
+	background:#FFF;
+}
+.logins_box .box{
+	padding-top:27px;
+	display:none;
+}
+.logins_box .show{
+	display: block;
+}
+.logins_box .hd{
+	width: 295px;
+	padding-left:32px;
+	float: right;
+	border-left:1px solid #eeeeee; 
+}
+.logins_box .hd .warp{
+	margin-top:-25px;
+}
+.logins_box .bd{
+	float:left;
+	width:200px;
+	padding-left:20px;
+	overflow:hidden;
+}
+.logins_box .hd .warp{
+	
+}
+
+.logins_box .hd .tit{
+	display:block;
+	margin-left:25px;
+}
+
+.logins_box .hd .zctitle{
+	width:271px;
+	height:18px;
+	background-position:0 -250px;
+}
+.logins_box .hd .zctitle2{
+	background-position:0 -250px;
+}
+.logins_box .hd .tit span{
+	font-size: 28px;
+	color: #ff1d83;
+
+}
+.logins_box .hd .li{
+	position:relative;
+	padding-top:25px;
+}
+.logins_box .hd .hint{
+	height: 14px;
+	line-height: 11px;
+	position: absolute;
+	top:3px;
+	left:0;
+	line-height: 14px\9;
+}
+.logins_box .hd .hint span{
+	display: block;
+	height: 14px;
+	margin-top: 5px;
+	color: #ff1100;
+	font-size: 12px;
+	padding:0 10px 0 18px;
+	background-position:-161px -144px;
+}
+.logins_box .hd .hint a{
+	color:#666;
+}
+.logins_box .hd .inputer{
+	height:36px;
+	position: relative;
+}
+.logins_box .hd .inputer .reloadImg{color:#c2c2c2;display:inline-block;width:40px;margin:0 10px;}
+.logins_box .hd .inputer .reloadImg:hover{color:#FA265D;}
+.logins_box .hd .lable{
+	display: block;
+	color:#CCC;
+	height: 34px;
+	overflow: hidden;
+	zoom:1;
+	font-size: 12px;
+	position:absolute;
+	left:10px;
+	top:0;
+}
+.logins_box .hd .lable em{
+	margin-right:8px;
+	top:7px;
+	vertical-align:top;
+	position:relative;
+	border-right:1px solid #CDCDCD;
+	padding-right:6px;
+}
+.logins_box .hd .lable strong{
+	position:relative;
+	top:8px;
+	font-size:14px;
+}
+
+.logins_box .hd .text_input{
+	width: 245px;
+	height: 34px;
+	line-height: 34px \9;
+	font-size: 12px;
+	float: left;
+	margin:0;
+	color:#9D9D9D;
+	padding:0 3px 0 10px;
+	outline:none;
+	border:1px solid #BEBEBE;
+	border-radius:3px;
+	background:#fff;
+}
+.logins_box .hd .login_Name_reg{
+	width: 147px;
+}
+.logins_box .postYzm{
+	position:absolute;
+	background: #FF6600;
+	color: #fff;
+	font-size: 14px;
+	text-align:center;
+	line-height: 36px;
+	width: 93px;
+	right: 35px;
+	top: 0;
+	border-radius: 5px;
+}
+.logins_box .postYzmNone{
+	background:#969696;
+	color: #ececec;
+	font-size:12px;
+}
+.logins_box .hd .text_input:focus{
+	border:1px solid #FF50A5;
+	-webkit-box-shadow: 0 0 5px 1px rgba(251,40,142,.25);
+    -moz-box-shadow: 0 0 5px 1px rgba(251,40,142,.25);  
+	box-shadow: 0 0 5px 1px rgba(251,40,142,.25);
+}
+.logins_box .dynamic .text_input{
+	width: 31px;
+}
+
+.logins_box .dynamic img{
+	float: left;
+	width: 94px;
+	height: 34px;
+	border: 1px solid #ccc;
+	margin-left:15px;
+	cursor:pointer;
+}
+.logins_box .hd .btn{
+	overflow: hidden;
+	padding-top:15px;
+}
+.logins_box .btn input{
+	padding:0 40px;
+	height: 40px;
+	border:0 none;
+	cursor: pointer;
+	background:#ff6600;
+	color:#FFF;
+	font-size:16px;
+	border-radius:5px;
+}
+.logins_box .btn .none{
+	opacity:0.5;
+	filter:alpha(opacity = 50);
+	cursor:text;
+}
+.logins_box .btn input:hover{
+	background:#ec6043;
+}
+.logins_box .btn .regist_but{
+	
+}
+.logins_box .btn .regist_but:hover{
+	
+}
+.logins_box .btn .noneCick{
+	background: #BFBFBF;
+	color:#FFF;
+	cursor: default;
+}
+.logins_box .hd .radio{
+	color:#999999;
+	padding-top:10px;
+}
+.logins_box .hd .radio a{
+	display:inline-block;
+	width:70px;
+	color:#808080;
+	padding-left:5px;
+	margin-left:5px;
+	text-decoration:underline;
+}
+.logins_box .hd .radio .useragreement{
+	display:inline;
+	color:#3091f5;
+	padding-left:0;
+	margin-left:0;
+	border-left:none;
+	text-decoration:none;
+}
+.logins_box .radio i{
+	width: 16px;
+	float: left;
+	height: 16px;
+	font-size: 12px;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-position:-584px -184px;
+	cursor: pointer;
+}
+.logins_box .radio span{
+	margin-left: 5px;
+}
+.logins_box .checkbox_input{
+	width:14px;
+	height:14px;
+	color:#F09;
+}
+.logins_box .bd .zc_but_box{
+	font-size:12px;
+	font-family:'微软雅黑';
+	color:#999;
+	padding-bottom:15px;
+}
+.logins_box .bd .zc_but_box span{
+	font-size:16px;
+	color:#666;
+}
+.logins_box .zc_but{
+	color:#fb288e;
+	font-family:'微软雅黑';
+	position: relative;
+	display:block;
+	font-size:17px;
+	padding-bottom:5px;
+}
+.login_box .zc_but:hover{
+	top:-1px;
+}
+.qq_sina_loginbox{
+	overflow:hidden;
+	*zoom:1;
+}
+
+
+.sinalogin,.threelogin{
+	width:21px;
+	height:18px;
+}
+
+.QQlogin,.wxlogin,.baidulogin,.Sinalogin {
+	width:180px;
+	height:40px;
+	margin-bottom:10px;
+}
+
+.sinalogin{background-position:0 -136px;}
+
+
+.threelogin{background-position:-26px -136px;}
+
+.otherLogin span{color:#c2c2c2;}
+.otherLogin span,.otherLogin a{vertical-align:middle;margin:0 5px;}
+
+.QQlogin{
+	background-position:0 -44px;
+}
+.QQlogin:hover{
+	background-position:-185px -44px;
+}
+.wxlogin{
+	background-position:0 0;
+}
+.wxlogin:hover{
+	background-position:-185px 0;
+}
+.baidulogin{
+	background-position:0 -88px;
+}
+.baidulogin:hover{
+	background-position:-185px -88px;
+}
+
+.Sinalogin{
+	background-position:0 -164px;
+}
+.Sinalogin:hover{
+	background-position:-185px -164px;
+}
+
+.loginButton{
+	position:relative;
+	top:20px;
+	left:25px;
+}
+.login_form{
+	
+}
+.login_aaa{
+	font-size: 10px;
+}
+.login_close{
+	width:47px;
+	height:47px;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.login_close span{
+	display:block;
+	width:23px;
+	height:23px;
+	background-position:-51px -134px;
+	position:relative;
+	z-index:5;
+	left:20px;
+	top:5px;
+}
+.login_close em{
+	display:block;
+	width:23px;
+	height:23px;
+	background-position: -125px -139px;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:2;
+	background:#FFF;
+	opacity:.15;
+	filter:alpha(opacity=15);
+	display:none;
+}
+.login_close:hover em{
+	display:block;
+}
+.login_box .dynamic{
+	display:none;
+}
+
+.usericon{
+	width:21px;
+	height:21px;
+	background-position:-40px -139px;
+}
+.passicon{
+	width:21px;
+	height:21px;
+	background-position:-66px -139px;
+}
+.login_box .hd .lable em.passiconYz{
+	background-position:-95px -141px;
+	top:9px;
+}
+
+.opacity{
+	display:block;
+	opacity:0;
+	filter:alpha(opacity=0);
+	z-index:-999999;
+}
+
+/* 异地登录 */
+.remoteLogin{position:fixed;top:50%;left:50%;z-index:6001;width: 590px;height: 355px;background:#fff url(http://img.img.9xiu.com/public/webImg/common/remoteLoginIcon.png) no-repeat 30px 30px;border:5px solid #EDEFF5;margin:-178px 0 0 -295px;}
+.remoteClose{display:block;width: 13px;height: 13px;background:url(http://img.img.9xiu.com/public/webImg/common/remoteLoginClose.png) no-repeat;position:absolute;right:15px;top:15px;z-index:10;}
+.remoteLoginBut{display:inline-block;background:#36A0DB;color:#fff;font-size: 18px;text-align:center;border-radius:3px;}
+.remoteLoginButNone{background:#828282;}
+.remsubmint{display:block;width: 140px;height: 47px;line-height:47px;margin:0 auto;}
+.remoteLogin h2{text-align:center;font-size:24px;color:#585858;padding:30px 0 10px 0;}
+.remoteLogin .remoteLoginTxt{text-align:center;color:#429edf;font-size:12px;}
+.remoteLogin .noneMbile{font-size:24px;color:#888;text-align:center;}
+.noneMbilebox .noneMbile{padding:70px 0;}
+.remotembilebox{margin-top:30px;}
+.remotembilebox dl{overflow:hidden;color:#888;*zoom:1;line-height:36px;padding:10px 0 10px 95px;}
+.remotembilebox dt{float:left;font-size:12px;}
+.remotembilebox dd{float:left;}
+.remoteMobileNum{font-size:24px;}
+.remotembilebox .remoteErrorTxt{color:#ef5350;}
+.remotembilebox .getVnum{width: 120px;height: 31px;line-height:31px;font-size:12px;}
+.remotembilebox input{height:34px;line-height:34px\9;border-color:#E5E5E5;width:135px;padding:0 10px;margin:0;}
+.remotembilebox .rcdd{padding:0 30px;width: 160px;}
+.remotembilebox .remsubmint{margin-top:40px;}
+
+.loginTopImg{margin:-15px 0 10px -30px;}
+.regImg{margin-top:25px;}
+
+.regshow .loginTopImg{display:none;}
+/*.regshow .login_close span{top:12px;}*/
+
+/* 风险提醒 */
+.nonemobileTip{width: 275px;height: 46px;line-height:46px;padding-left:105px;background:url(http://img.img.9xiu.com/public/webImg/common/nonemobile.png) no-repeat;position:fixed;left:50%;margin-left:-190px;top:135px;z-index:11;color:#EF5350;font-size:14px;}
+.nonemobileTip a{color:#50A6EF;text-decoration:underline;}
+
+/*风行*/
+.piccheck{ width: 90px; height: 32px; border: 1px solid #999; border-radius: 3px; position: absolute; right: 35px; top:1px;}

@@ -1,0 +1,256 @@
+/**mod_site**/
+.sub_nav{
+	border-top:4px solid #FF64B6;
+	border-radius: 5px 5px 0 0;
+}
+/**mod_rank 首页 排行榜**/
+.mod_rank{
+	margin-bottom:15px;
+}
+.mod_rank .hd{
+	color: #585f64;
+}
+
+.mod_rank .top{
+	color: #535353;
+	height: 30px;
+}
+.mod_rank .top li{
+	float: left;
+	text-align: center;
+	height: 30px;
+	cursor: pointer;
+	position: relative;
+	margin-top:5px;
+}
+.mod_rank .top li em{
+	border-right:1px solid #AAA;
+	display:inline-block;
+	height:12px;
+	line-height:11px;
+	*line-height:13px;
+	padding:0 17px;
+}
+.mod_rank .top li i{
+	position: absolute;
+	width: 44px;
+	height: 6px;
+	bottom: 0;
+	left: 50%;
+	margin-left: -22px;
+	background-position:-115px -108px;
+	display: none;
+	_bottom:-1px;
+	overflow:hidden;
+}
+.mod_rank .top .curr i{
+	display: block;
+}
+.mod_rank .inner{
+	padding-top: 9px;
+}
+.mod_rank .inner a{
+	display: block;
+	overflow: hidden;
+	height: 40px;
+	padding:3px 0;
+	transition:background 0.2s linear;
+	-webkit-transition:background 0.2s linear;
+	-moz-transition:background 0.2s linear;
+	-o-transition:background 0.2s linear;
+}
+.mod_rank .inner li{
+	border-bottom:1px dashed #F0E3EB;
+}
+.mod_rank .inner i,
+.mod_rank .inner .img,
+.mod_rank .inner .txt{
+	float: left;
+}
+.mod_rank .inner a i{
+	width: 15px;
+	height: 14px;
+	margin:15px 10px 0 10px;
+}
+.mod_rank .inner .backNums1{
+	background-position:0 -107px;
+}
+.mod_rank .inner .backNums2{
+	background-position:-19px -107px;
+}
+.mod_rank .inner .backNums3{
+	background-position:-38px -107px;
+}
+.mod_rank .inner .backNums4{
+	background-position:-57px -107px;
+}
+.mod_rank .inner .backNums5{
+	background-position:-76px -107px;
+}
+.mod_rank .inner .backNums6{
+	background-position:-95px -107px;
+}
+
+.mod_rank .inner a:hover{
+	background: #FCFCFC;
+}
+.mod_rank .inner a .icon_rich_level{
+	float: right;
+	_display:inline;
+}
+.mod_rank .inner .img{
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+.mod_rank .inner img{
+	width: 40px;
+}
+.mod_rank .inner a .txt{
+	line-height: 20px;
+	padding-left: 10px;
+}
+.mod_rank .inner a .m_tit{
+	color: #626262;
+	max-width:85px;
+	_width:85px;
+}
+.mod_rank .inner a .s_tit{
+	color: #A9A9A9;
+}
+.mod_rank .inner .hot a .s_tit,
+.mod_rank .inner a:hover .s_tit{
+	color: #A9A9A9;
+}
+.mod_rank .icon_live_level,.mod_rank .icon_rich_level{
+	float: right;
+	display: block;
+	margin:12px 12px 0 0;
+}
+.mod_rank .bd .inner{
+	display:none;
+	min-height: 282px;
+	_height:282px;
+}
+.mod_rank .bd .show{
+	display:block;
+}
+.mod_rank .hot a .txt{
+	padding-left:10px;
+}
+
+/*排行榜页面 总榜*/
+
+.mod_all_rank{
+	border-top: none;
+}
+.mod_all_rank .banner{
+	text-align: center;
+	padding: 35px 0 17px 0;
+}
+.mod_all_rank .line{
+	line-height: 0;
+	font-size: 0;
+	height: 3px;
+	background: #ff4190;
+	border-radius: 8px 8px 0 0;
+}
+.mod_all_rank .hd{
+	height: 40px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.mod_all_rank .hd li{
+	float: left;
+	width: 25%;
+	border-bottom: 1px solid #f1f1f1;
+	*width:24.9999999%;
+}
+.mod_all_rank .hd li a{
+	border-right: 1px solid #e8d5e2;
+	display: block;
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+	color: #666;
+	background: #f9f9f9;
+}
+.mod_all_rank .hd li a:hover,.pop_rank .hd .curr a{
+	background: #fff;
+}
+.mod_all_rank .hd .last a{
+	border-right: none;
+}
+
+.mod_all_rank .bd{
+	border: 1px solid #ccc;
+	border-top:0;
+	min-height: 481px;
+	_height: 481px;
+}
+.gift_rank .bd{
+	overflow: hidden;
+	zoom:1;
+	_height:auto;
+}
+.mod_all_rank .bd a{
+	display: block;
+	overflow: hidden;
+	height: 47px;
+	border-bottom: 1px solid #f1f1f1;
+	padding-left: 20px;
+}
+.mod_all_rank .bd a:hover{
+	background: #f9f9f9;
+	color: #ff4190;
+}
+.mod_all_rank .bd a i{
+	display: block;
+	float: left;
+	width: 33px;
+	height: 25px;
+	margin-top: 11px;
+	color: #888;
+	line-height: 25px;
+	text-align: center;
+	font-size: 16px;
+}
+.mod_all_rank .bd a span{
+	float: left;
+	line-height: 47px;
+}
+.mod_all_rank .bd a .tit{
+	padding-left:9px;
+	width:165px;
+}
+.mod_all_rank .bd a b{
+	float: right;
+	display: block;
+	margin: 15px 20px 0 0;
+	_display:inline;
+}
+.mod_all_rank .bd a img{
+	float: left;
+	border: 1px solid #ccc;
+	width: 34px;
+	height: 34px;
+	margin: 5px 0 0 30px;
+	_display:inline;
+}
+.mod_all_rank .bd a .first{
+	background-position:3px -246px;
+}
+.mod_all_rank .bd a .second{
+	background-position:3px -276px;
+}
+.mod_all_rank .bd a .third{
+	color: #ff4190;
+}
+.m199c00s249 .m .vui{
+	margin-bottom:12px;
+}
+
+
+
+
+#box{ width: 200px; height: 200px; position: absolute; top:0px; left: 0px; background: red;}
